@@ -164,12 +164,6 @@ The alloy shows good properties.
 2. 在对话中直接使用 `/` + skill 名称调用
 3. 例如：`/zh-to-en-materials` 然后粘贴你的中文草稿
 
-### 在 Cursor 中使用
-
-1. 安装 OpenSkills: `npm install -g openskills`
-2. 将 skills 目录放入项目的 `.cursor/skills/` 或 `.claude/skills/` 目录
-3. 在 Cursor Agent Chat 中输入 `/` 搜索 skill 名称
-
 ### 直接复制 Prompt 使用
 
 每个 skill 目录下的 `SKILL.md` 文件包含了完整的系统提示（system prompt），你可以直接复制其中的内容到 ChatGPT、Claude 等其他 AI 工具中使用。
